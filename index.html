@@ -2,6 +2,18 @@
 <html>
 <body>
 <style>
+  input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
 #raw{
   width: 100%;
   background-color: #dddddd;
@@ -13,6 +25,9 @@
   border-left: 3px solid red;
 }
 </style>
+<header>
+  
+</header>
 <h2>Find Stock Ticker</h2>
 <input type="text" id="ticker">
 <button type="button" onclick="loadXMLDoc()">Search Ticker</button>
