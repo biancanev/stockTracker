@@ -2,6 +2,11 @@
 <html>
 <body>
 <style>
+  .submit{
+    color:white;
+    background-color: #4CAF50;
+    padding: 12px 28px;
+  }
   input[type=text] {
     width: 100%;
     box-sizing: border-box;
@@ -30,7 +35,7 @@
 </header>
 <h2>Find Stock Ticker</h2>
 <input type="text" id="ticker">
-<button type="button" onclick="loadXMLDoc()">Search Ticker</button>
+<button type="button" onclick="loadXMLDoc()" class="submit">Search Ticker</button>
 
 <p>Raw Info:</p>
 <p id="raw"></p>
